@@ -2,8 +2,6 @@
 Automated framework for analysis and visualization of mutational signatures in pathogenic bacterial strains
 
 
-# Mutvis framework
-
 
 
 
@@ -13,7 +11,7 @@ Automated framework for analysis and visualization of mutational signatures in p
 
 
 
-# MutVis Process
+# Steps
 
 ![mutvis_process](https://user-images.githubusercontent.com/53608357/99533707-53260580-29cc-11eb-8296-ece9ace7e94e.png)
 
