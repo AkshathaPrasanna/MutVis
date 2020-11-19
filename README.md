@@ -47,12 +47,6 @@ cd MutVis
 conda create -c conda-forge -c bioconda -n snakemake snakemake
 
 conda activate snakemake
-
-1. Item 1
-2. Item 2
-3. Item 3
- * Item 3a
- * Item 3b
  
  
 # Running MutVis for variant calling
