@@ -8,7 +8,7 @@ MutVis supports variant calling, processing of VCF files, transition and transve
 
 
 
-# MutVis automates the below steps
+# Steps
 
 ![mutvis_process](https://user-images.githubusercontent.com/53608357/99533707-53260580-29cc-11eb-8296-ece9ace7e94e.png)
 
@@ -17,6 +17,7 @@ MutVis supports variant calling, processing of VCF files, transition and transve
 
 
 # Installation
+
 
 
 
