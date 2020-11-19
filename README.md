@@ -20,23 +20,11 @@ MutVis supports variant calling, processing of VCF files, transition and transve
 
 
 
-
-
-
-# Installation
-
-git clone
-
-cd MutVis
-
-
-
 # Requirements
 
 1. Python 3
 2. R
-3. Conda
-4. Snakemake
+3. Miniconda
 
 
 
@@ -45,6 +33,20 @@ cd MutVis
 1. VCF file.
 2. Reference genome in FASTA format.
 3. If VCF file is not available, fastq formatted raw reads for variant calling to generate VCF files.
+
+
+
+# Installation
+
+git clone https://github.com/AkshathaPrasanna/MutVis.git
+
+cd MutVis
+
+Install Snakemake with the following command: 
+
+conda create -c conda-forge -c bioconda -n snakemake snakemake
+
+conda activate snakemake
 
 
 
