@@ -22,6 +22,15 @@ MutVis supports variant calling, processing of VCF files, transition and transve
 
 
 
+
+# Installation
+
+git clone
+
+cd MutVis
+
+
+
 # Requirements
 
 1. Python 3
