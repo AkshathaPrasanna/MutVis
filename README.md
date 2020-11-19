@@ -16,7 +16,46 @@ MutVis supports variant calling, processing of VCF files, transition and transve
 
 
 
-# Installation
+
+
+
+
+
+
+# Requirements
+
+1. Python 3
+2. R
+3. Conda
+4. Snakemake
+
+
+
+# Inputs
+
+1. VCF file.
+2. Reference genome in FASTA format.
+3. If VCF file is not available, fastq formatted raw reads for variant calling to generate VCF files.
+
+
+
+# Running MutVis for variant calling
+
+
+
+
+
+
+# Running MutVis for mutation signature analysis
+
+
+
+
+
+
+# Tutorial
+
+
 
 
 
