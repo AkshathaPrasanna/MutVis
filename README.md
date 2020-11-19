@@ -42,7 +42,7 @@ git clone https://github.com/AkshathaPrasanna/MutVis.git
 
 cd MutVis
 
-###### Install Snakemake with the following command: 
+## Install Snakemake with the following command: 
 
 conda create -c conda-forge -c bioconda -n snakemake snakemake
 
