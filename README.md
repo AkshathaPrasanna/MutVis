@@ -69,6 +69,16 @@ Here is an overview of the Snakemake rule graph:
 ![dag3](https://user-images.githubusercontent.com/53608357/99771365-0a3a9200-2b2f-11eb-9192-a80931e85b8d.png)
 
 
+    ## Usage
+    
+    After finishing the setup and enabling the conda environment, navigate to VCF_Gen/ directory with Snakefile and do a dry run to check for errors
+
+    snakemake -n
+    
+    Once you're ready to run the analysis, type
+
+    snakemake --use-conda --cores 16
+
 # Running MutVis for mutation signature analysis
 
 
