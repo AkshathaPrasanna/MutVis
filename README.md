@@ -31,13 +31,11 @@ MutVis supports variant calling, processing of VCF files, transition and transve
 
 To setup a minimal snakemake environment, first install Miniconda with Bioconda channels by following the instructions [here](https://bioconda.github.io/user/install.html).
 
+#### Install Snakemake with the following command: 
 
-# Inputs
+conda create -c conda-forge -c bioconda -n snakemake snakemake
 
-1. VCF file.
-2. Reference genome in FASTA format.
-3. If VCF file is not available, fastq formatted raw reads for variant calling to generate VCF files.
-
+conda activate snakemake
 
 
 # Installation
@@ -46,14 +44,20 @@ git clone https://github.com/AkshathaPrasanna/MutVis.git
 
 cd MutVis
 
-#### Install Snakemake with the following command: 
 
-conda create -c conda-forge -c bioconda -n snakemake snakemake
+# Inputs
 
-conda activate snakemake
- 
- 
+1. VCF file.
+2. Reference genome in FASTA format.
+3. If VCF file is not available, fastq formatted raw reads for variant calling to generate VCF files.
+
+
+  
 # Running MutVis for variant calling
+
+Here is an overview of the Snakemake rule graph:
+
+
 
 
 
