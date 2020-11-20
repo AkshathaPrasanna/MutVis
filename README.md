@@ -51,6 +51,15 @@ cd MutVis
 2. Reference genome in FASTA format.
 3. If VCF file is not available, fastq formatted raw reads for variant calling to generate VCF files.
 
+#### Adding input data
+
+1. Copy VCF files to the VCF_files/ directory and ensure the file names follow the convention of {sample_name}.vcf
+2. Add reference genome to the data/fasta directory and ensure the file name follow the convention of genome.fasta
+2. Copy each of the raw sample fastq files to the data/fastq directory and ensure the file names follow the convention of {ID}_1.fastq and {ID}_2.fastq
+
+
+
+
 
   
 # Running MutVis for variant calling
