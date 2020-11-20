@@ -66,7 +66,7 @@ cd MutVis
 
 Here is an overview of the Snakemake rule graph:
 
-[dag (2020_03_13 16_45_29 UTC).pdf](https://github.com/AkshathaPrasanna/MutVis/files/5571756/dag.2020_03_13.16_45_29.UTC.pdf)
+![dag (2020_03_13 16_45_29 UTC).pdf](https://github.com/AkshathaPrasanna/MutVis/files/5571756/dag.2020_03_13.16_45_29.UTC.pdf)
 
 
 
