@@ -87,29 +87,12 @@ Here is an overview of the Snakemake rule graph for variant calling:
 
 # Tutorial
 
----
-**NOTE**
-
-It works with almost all markdown flavours (the below blank line matters).
-
----
-
-
------------------------ ------------------------------------
-![Tip](images/tip.png)\ Table multiline text bla bla bla bla
-                        bla bla bla bla bla bla bla ... the
-                        blank line below is important 
-
-----------------------------------------------------------------
 
 
 ```
 Box made with Triple Backticks
 ```
 
-~ ~ ~
-Box made with Triple Tildes (remove the spaces between the tildes to make this work)
-~ ~ ~
 
 
 
