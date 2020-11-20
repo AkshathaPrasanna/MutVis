@@ -70,7 +70,7 @@ Here is an overview of the Snakemake rule graph:
 
 
 
-file:///C:/Users/aksha/Google%20Drive/Phd_work/Mutational%20Patterns/Mutation%20Pattern/VCF_Generation/dag%20(2020_03_13%2016_45_29%20UTC).pdf
+(file:///C:/Users/aksha/Google%20Drive/Phd_work/Mutational%20Patterns/Mutation%20Pattern/VCF_Generation/dag%20(2020_03_13%2016_45_29%20UTC).pdf)
 
 
 
