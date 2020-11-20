@@ -67,6 +67,7 @@ cd MutVis
 Here is an overview of the Snakemake rule graph:
 
 
+![dag2](https://user-images.githubusercontent.com/53608357/99770967-5802ca80-2b2e-11eb-820c-1738804df457.png)
 
 
 
