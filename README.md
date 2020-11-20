@@ -33,9 +33,9 @@ To setup a minimal snakemake environment, first install Miniconda with Bioconda 
 
 #### Install Snakemake with the following command: 
 
-conda create -c conda-forge -c bioconda -n snakemake snakemake
+conda create -n Mutvis -c conda-forge -c bioconda snakemake
 
-conda activate snakemake
+conda activate Mutvis
 
 
 # Installation
