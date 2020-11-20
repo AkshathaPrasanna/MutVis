@@ -87,6 +87,12 @@ Here is an overview of the Snakemake rule graph for variant calling:
 
 # Tutorial
 
+---
+**NOTE**
+
+It works with almost all markdown flavours (the below blank line matters).
+
+---
 
 
 
