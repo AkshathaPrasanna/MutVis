@@ -66,11 +66,6 @@ cd MutVis
 
 Here is an overview of the Snakemake rule graph:
 
-![dag (2020_03_13 16_45_29 UTC).pdf](https://github.com/AkshathaPrasanna/MutVis/files/5571756/dag.2020_03_13.16_45_29.UTC.pdf)
-
-
-
-(file:///C:/Users/aksha/Google%20Drive/Phd_work/Mutational%20Patterns/Mutation%20Pattern/VCF_Generation/dag%20(2020_03_13%2016_45_29%20UTC).pdf)
 
 
 
