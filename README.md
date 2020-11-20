@@ -27,6 +27,10 @@ MutVis supports variant calling, processing of VCF files, transition and transve
 3. Miniconda
 
 
+# Setup
+
+To setup a minimal snakemake environment, first install Miniconda with Bioconda channels by following the instructions [here](https://bioconda.github.io/user/install.html).
+
 
 # Inputs
 
