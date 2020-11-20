@@ -65,9 +65,8 @@ cd MutVis
 # Running MutVis for variant calling
 
 Here is an overview of the Snakemake rule graph:
-![dag2](https://user-images.githubusercontent.com/53608357/99770967-5802ca80-2b2e-11eb-820c-1738804df457.png)
 
-
+![dag3](https://user-images.githubusercontent.com/53608357/99771365-0a3a9200-2b2f-11eb-9192-a80931e85b8d.png)
 
 
 # Running MutVis for mutation signature analysis
