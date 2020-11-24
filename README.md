@@ -38,7 +38,6 @@ To setup a minimal snakemake environment, first install Miniconda with Bioconda 
 conda create -n Mutvis -c conda-forge -c bioconda snakemake
 
 conda activate Mutvis
-
 ```
 
 
@@ -48,7 +47,6 @@ conda activate Mutvis
 git clone https://github.com/AkshathaPrasanna/MutVis.git
 
 cd MutVis
-
 ```
 
 
@@ -82,7 +80,6 @@ Here is an overview of the Snakemake rule graph for variant calling:
   
   ```
   snakemake -n
-  
   ```
   
   Once you're ready to run the analysis, type
