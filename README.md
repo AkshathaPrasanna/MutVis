@@ -76,7 +76,7 @@ Here is an overview of the Snakemake rule graph for variant calling:
   
   Once you're ready to run the analysis, type
 
-  snakemake --use-conda --cores 16               ### The minimum number of 2 cores to be given depending on your system configuration.
+  snakemake --use-conda --cores 16               <!--- --> The minimum number of 2 cores to be given depending on your system configuration.
 
 # Running MutVis-Mutation signature analysis
 
