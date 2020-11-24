@@ -33,16 +33,23 @@ To setup a minimal snakemake environment, first install Miniconda with Bioconda 
 
 #### Install Snakemake with the following command: 
 
+
+```
 conda create -n Mutvis -c conda-forge -c bioconda snakemake
 
 conda activate Mutvis
 
+```
+
 
 # Installation
 
+```
 git clone https://github.com/AkshathaPrasanna/MutVis.git
 
 cd MutVis
+
+```
 
 
 # Inputs
@@ -72,11 +79,19 @@ Here is an overview of the Snakemake rule graph for variant calling:
   
   After finishing the setup and enabling the conda environment, navigate to VCF_Gen/ directory with Snakefile and do a dry run to check for errors
   
+  
+  ```
   snakemake -n
+  
+  ```
   
   Once you're ready to run the analysis, type
 
-  snakemake --use-conda --cores 16               <!--- --> The minimum number of 2 cores to be given depending on your system configuration.
+  ```
+  snakemake --use-conda --cores 16              
+  ```
+    
+  The minimum number of 2 cores to be given depending on your system configuration.
 
 # Running MutVis-Mutation signature analysis
 
