@@ -49,6 +49,12 @@ git clone https://github.com/AkshathaPrasanna/MutVis.git
 cd MutVis
 ```
 
+```
+def hello
+   puts "Hello world!"
+end
+```
+
 
 # Inputs
 
