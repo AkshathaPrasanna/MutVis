@@ -33,13 +33,11 @@ To setup a minimal snakemake environment, first install Miniconda with Bioconda 
 
 #### Install Snakemake with the following command: 
 
-
 ```
 conda create -n Mutvis -c conda-forge -c bioconda snakemake
 
 conda activate Mutvis
 ```
-
 
 # Installation
 
@@ -48,13 +46,6 @@ git clone https://github.com/AkshathaPrasanna/MutVis.git
 
 cd MutVis
 ```
-
-```
-def hello
-   puts "Hello world!"
-end
-```
-
 
 # Inputs
 
@@ -82,8 +73,7 @@ Here is an overview of the Snakemake rule graph for variant calling:
   ## Usage
   
   After finishing the setup and enabling the conda environment, navigate to VCF_Gen/ directory with Snakefile and do a dry run to check for errors
-  
-  
+    
   ```
   snakemake -n
   ```
@@ -117,18 +107,4 @@ Box made with Triple Backticks
 
 >[!WARNING]
 >This is a warning
-
-```
-git status
-git pull origin master
-git add <file>
-git commit -m “message or remarks about the action done”
-git push origin
-git status
-```
-
-
-
-
-
 
