@@ -104,13 +104,22 @@ Here is an overview of the Snakemake rule graph for variant calling:
 ```
 Box made with Triple Backticks
 ```
-dfhghgjdfhjagfh
 
 
 
 
 
+>[!WARNING]
+>This is a warning
 
+```
+git status
+git pull origin master
+git add <file>
+git commit -m “message or remarks about the action done”
+git push origin
+git status
+```
 
 
 
