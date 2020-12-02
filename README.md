@@ -91,7 +91,7 @@ Here is an overview of the Snakemake rule graph for variant calling:
 Here is an overview of the Snakemake rule graph for TvTi plot for whole genome:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/53608357/100833803-b1ed8380-3490-11eb-87a0-fc6e146784e9.png">
+  <img src="https://user-images.githubusercontent.com/53608357/100833351-cbda9680-348f-11eb-800e-729e9d67646a.png">
 </p>
 
  Once you're ready with the vcf files, type
@@ -108,7 +108,7 @@ Here is an overview of the Snakemake rule graph for TvTi plot for whole genome:
 Here is an overview of the Snakemake rule graph for TvTi plot for selected gene :
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/53608357/100833351-cbda9680-348f-11eb-800e-729e9d67646a.png">
+  <img src="https://user-images.githubusercontent.com/53608357/100833803-b1ed8380-3490-11eb-87a0-fc6e146784e9.png">
 </p>
 
 
@@ -128,6 +128,12 @@ Here is an overview of the Snakemake rule graph for TvTi plot for selected gene 
   
 
 # Running MutVis-Mutation signature analysis
+Here is an overview of the Snakemake rule graph for Mutation signature analysis :
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/53608357/100834217-861ecd80-3491-11eb-8a47-ff106f6f1969.png">
+</p>
+
 
  To derive mutation signatures for the given set of samples, type
 
