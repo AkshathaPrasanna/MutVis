@@ -86,12 +86,43 @@ Here is an overview of the Snakemake rule graph for variant calling:
     
   The minimum number of 2 cores to be given depending on your system configuration.
 
+# Running MutVis-Genome mutation TvTi plot generation
+
+ Once you're ready with the vcf files, type
+
+  ```
+  snakemake --use-conda --cores 16  MutVis_TiTvGenome_Plots        
+  ```
+    
+  The minimum number of 2 cores to be given depending on your system configuration.
+  This results in the proportion and frequency plots of trasition and transversion observed across the whole genome. 
+  
+# Running MutVis-Gene mutation TvTi plot generation
+
+ To analyse specific genes, 
+ 
+ Provide the gene coordinates in the config file ( start and end position of the gene to be analysed) and then type,
+ 
+ 
+  ```
+  snakemake --use-conda --cores 16  MutVis_TiTvGene_Plots        
+  ```
+    
+  The minimum number of 2 cores to be given depending on your system configuration.
+  This results in the proportion and frequency plots of trasition and transversion observed in the specified gene. 
+  
+  
+
 # Running MutVis-Mutation signature analysis
 
+ To derive mutation signatures for the given set of samples, type
 
-
-
-
+  ```
+  snakemake --use-conda --cores 16 MutVis_MutSign        
+  ```
+    
+  The minimum number of 2 cores to be given depending on your system configuration.
+  This results in the mutation count matrix, base substitution matrix, relative contribution of derived mutation signatures for the given samples and clustered heatmap. 
 
 # Tutorial
 
