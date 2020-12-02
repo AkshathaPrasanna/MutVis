@@ -88,6 +88,12 @@ Here is an overview of the Snakemake rule graph for variant calling:
 
 # Running MutVis-Genome mutation TvTi plot generation
 
+Here is an overview of the Snakemake rule graph for TvTi plot for whole genome:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/53608357/100833803-b1ed8380-3490-11eb-87a0-fc6e146784e9.png">
+</p>
+
  Once you're ready with the vcf files, type
 
   ```
