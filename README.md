@@ -101,7 +101,8 @@ Here is an overview of the Snakemake rule graph for variant calling:
 
 Here is an overview of the Snakemake rule graph for TvTi plot for selected gene :
 
-[dag_genetvti.pdf](https://github.com/AkshathaPrasanna/MutVis/files/5627200/dag_genetvti.pdf)
+![dag_genometvti](https://user-images.githubusercontent.com/53608357/100833351-cbda9680-348f-11eb-800e-729e9d67646a.png)
+
 
  To analyse specific genes, 
  
