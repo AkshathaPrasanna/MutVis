@@ -102,7 +102,7 @@ Here is an overview of the Snakemake rule graph for variant calling:
 Here is an overview of the Snakemake rule graph for TvTi plot for selected gene :
 
 <p align="center">
-  <img width="600" height="200" src="![dag_genometvti](https://user-images.githubusercontent.com/53608357/100833351-cbda9680-348f-11eb-800e-729e9d67646a.png)">
+  <img width="600" height="200" src="https://user-images.githubusercontent.com/53608357/100833351-cbda9680-348f-11eb-800e-729e9d67646a.png">
 </p>
 
 
