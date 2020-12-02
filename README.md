@@ -81,10 +81,10 @@ Here is an overview of the Snakemake rule graph for variant calling:
   Once you're ready to run the analysis, type
 
   ```
-  snakemake --use-conda --cores 16              
+  snakemake --use-conda --cores 4             
   ```
     
-  The minimum number of 2 cores to be given depending on your system configuration.
+  The minimum number of 4 cores and maximum number of 16 depending on your system configuration.
 
 # Running MutVis-Genome mutation TvTi plot generation
 
@@ -99,10 +99,10 @@ Here is an overview of the Snakemake rule graph for TvTi plot for whole genome:
  Once you're ready with the vcf files, type
 
   ```
-  snakemake --use-conda --cores 16  MutVis_TiTvGenome_Plots        
+  snakemake --use-conda --cores 4  MutVis_TiTvGenome_Plots        
   ```
     
-  The minimum number of 2 cores to be given depending on your system configuration.
+  The minimum number of 4 cores and maximum number of 16 depending on your system configuration.
   This results in the proportion and frequency plots of trasition and transversion observed across the whole genome. 
   
 # Running MutVis-Gene TvTi plot generation
@@ -121,10 +121,10 @@ Here is an overview of the Snakemake rule graph for TvTi plot for selected gene 
  
  
   ```
-  snakemake --use-conda --cores 16  MutVis_TiTvGene_Plots        
+  snakemake --use-conda --cores 4  MutVis_TiTvGene_Plots        
   ```
     
-  The minimum number of 2 cores to be given depending on your system configuration.
+  The minimum number of 4 cores and maximum number of 16 depending on your system configuration.
   This results in the proportion and frequency plots of trasition and transversion observed in the specified gene. 
   
   
@@ -141,10 +141,10 @@ Here is an overview of the Snakemake rule graph for Mutation signature analysis 
  To derive mutation signatures for the given set of samples, type
 
   ```
-  snakemake --use-conda --cores 16 MutVis_MutSign        
+  snakemake --use-conda --cores 4 MutVis_MutSign        
   ```
     
-  The minimum number of 2 cores to be given depending on your system configuration.
+  The minimum number of 4 cores and maximum number of 16 depending on your system configuration.
   This results in the mutation count matrix, base substitution matrix, relative contribution of derived mutation signatures for the given samples and clustered heatmap. 
 
 # Tutorial
