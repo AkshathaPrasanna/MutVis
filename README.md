@@ -97,7 +97,11 @@ Here is an overview of the Snakemake rule graph for variant calling:
   The minimum number of 2 cores to be given depending on your system configuration.
   This results in the proportion and frequency plots of trasition and transversion observed across the whole genome. 
   
-# Running MutVis-Gene mutation TvTi plot generation
+# Running MutVis-Gene TvTi plot generation
+
+Here is an overview of the Snakemake rule graph for TvTi plot for selected gene :
+
+[dag_genetvti.pdf](https://github.com/AkshathaPrasanna/MutVis/files/5627200/dag_genetvti.pdf)
 
  To analyse specific genes, 
  
