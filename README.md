@@ -159,6 +159,3 @@ Box made with Triple Backticks
 
 
 
->[!WARNING]
->This is a warning
-
