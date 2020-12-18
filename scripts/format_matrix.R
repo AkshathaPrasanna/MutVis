@@ -5,7 +5,7 @@
 
 # Restore the object
 df_t <- readRDS(file = "./scripts/df_t.rds")
-list_matrix <- list.files (path = "output_helmsman/test", recursive = TRUE, full.name = TRUE, pattern = "subtype_count_matrix_spectra.txt")
+list_matrix <- list.files(path="./output_helmsman", recursive=T, pattern="subtype_count_matrix_spectra.txt",full.names=T)
 
 # Format dataframe compatible to MutationalPatterns package
 

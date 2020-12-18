@@ -20,7 +20,25 @@
 # --- Main Build Rules --- #
 ## To be constructed
 #
+(IDS,) = glob_wildcards("./data/vcf/{ip}.vcf")
 
+rule all:
+    input:
+        helmsman_out_check = expand("output_helmsman/{ip}/subtype_count_matrix.txt",ip=IDS)
+
+rule helmsman:
+    input:
+        ref="data/fasta/reference_genome.fasta",
+        vcf_files="data/vcf/{ip}.vcf"
+    output:
+        "output_helmsman/{ip}/subtype_count_matrix.txt"
+
+    params:
+         output_path  = "output_helmsman/{ip}/"
+
+    conda: 'scripts/helmsman/env.yml'
+    shell:
+        "python scripts/helmsman/helmsman.py --input {input.vcf_files} --fastafile {input.ref} --projectdir {params.output_path}"
 
 
 rule MutVis_vcf_read:
@@ -76,29 +94,11 @@ rule MutVis_TiTvGenome_Plots:
     shell:
         "Rscript {input.script5}"
 
-(IDS,) = glob_wildcards("./data/vcf/{ip}.vcf")
 
-rule all:
-    input:
-        helmsman_out_check = expand("output_helmsman/{ip}/subtype_count_matrix.txt",ip=IDS)
-
-rule helmsman:
-    input:
-        ref="data/fasta/reference_genome.fasta",
-        vcf_files="data/vcf/{ip}.vcf"
-    output:
-        "output_helmsman/{ip}/subtype_count_matrix.txt"
-
-    params:
-         output_path  = "output_helmsman/{ip}/"
-
-    conda: 'scripts/helmsman/env.yml'
-    shell:
-        "python scripts/helmsman/helmsman.py --input {input.vcf_files} --fastafile {input.ref} --projectdir {params.output_path}"
 #
 rule MutVis_norm:
     input:
-        matrix = "output_helmsman/subtype_count_matrix.txt",
+        # matrix = "output_helmsman/{ip}/subtype_count_matrix.txt",
         script6 = "scripts/norm.R"
     output: "scripts/df_norm.rds"
     conda: 'env/env_datatable.yml'
