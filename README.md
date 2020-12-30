@@ -55,8 +55,8 @@ cd MutVis
 
 #### Adding input data
 
-1. Copy VCF files to the VCF_files/ directory and ensure the file names follow the convention of {sample_name}.vcf
-2. Add reference genome to the data/fasta directory and ensure the file name follow the convention of genome.fasta
+1. Create data/vcf directory in MutVis folder and Copy VCF files to the data/vcf directory and ensure the file names follow the convention of {sample_name}.vcf
+2. Add reference genome to the data/fasta directory and ensure the file name follow the convention of reference_genome.fasta
 3. To generae VCF files, Copy each of the raw sample fastq files to the data/fastq directory and ensure the file names follow the convention of {ID}_1.fastq and {ID}_2.fastq
 
 
@@ -85,6 +85,20 @@ Here is an overview of the Snakemake rule graph for variant calling:
   ```
     
   The minimum number of 4 cores and maximum number of 16 depending on your system configuration.
+  
+# Generate mutation count matrix
+
+## Usage
+  
+ Once you're ready with the vcf files, type
+
+  ```
+  snakemake --use-conda --cores 4  all        
+  ```
+    
+  The minimum number of 4 cores and maximum number of 16 depending on your system configuration.
+  This results in the mutation count matrix for individual given sample.
+  
 
 # Running MutVis-Genome mutation TvTi plot generation
 
